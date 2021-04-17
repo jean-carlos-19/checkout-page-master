@@ -1,0 +1,49 @@
+.venta {
+  width: 100%;
+  padding: 1rem;
+  background: #f2f2f2;
+  border-radius: 12px;
+  .articulo {
+    .figura {
+      @include display_flex(row, space-between, center);
+      img {
+        flex-basis: 50%;
+      }
+      .contenido {
+        flex-basis: 35%;
+        span {
+          margin-left: 0.5rem;
+        }
+        .numero_articulos {
+          @include display_flex(row, space-around, center);
+          padding: 1em;
+          border: 1px solid black;
+          border-radius: 1rem;
+
+          input[type="button"] {
+            margin-top: 0;
+            padding: 0.25em 0.5em;
+            border: none;
+            cursor: pointer;
+            background: #e0e0e0;
+            border-radius: 4px;
+          }
+          input[type="button"],
+          h3 {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+  .contenido_total {
+    width: 100%;
+    margin-top: 5rem;
+    .envio,
+    .total {
+      width: 100%;
+      @include display_flex(row, space-between, center);
+      border-top: 1px solid #bdbdbd;
+    }
+  }
+}

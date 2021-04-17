@@ -1,0 +1,4 @@
+footer {
+  padding: 1em;
+  @include display_flex(row, center, center);
+}

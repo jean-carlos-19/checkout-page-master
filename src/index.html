@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jean Carlos Piguave Alvarado">
+    <link rel="shortcut icon" href="./img/devchallenges.png" type="image/png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Checkout Page Master</title>
+</head>
+<body>
+    <main class="contenedor">
+        <header>
+            <h1> 
+                Checkout
+            </h1>
+        </header>
+        <article>
+            <section class="venta">
+                <div class="articulo">
+                    <figure class="figura">
+                        <img src="./img/photo1.png" alt="">
+                        <figcaption class="contenido">
+                                <h4>Vintage Bacbag</h4>
+                                <h5>54.99 <span>$94.99</span> </h5>
+                                <div class="numero_articulos">
+                                    <input type="button" value="-">
+                                       <h3>1</h3>
+                                    <input type="button" value="+">
+                                </div>
+                           
+                        </figcaption>
+                    </figure>
+                    <figure class="figura">
+                        <img src="./img/photo2.png" alt="">
+                        <figcaption class="contenido">
+                           
+                                <h4>Levi Shoes</h4>
+                                <h5>74.99 <span>$124.99</span> </h5>
+                                <div class="numero_articulos">
+                                    <input type="button" value="-">
+                                     <h3>1</h3>
+                                    <input type="button" value="+">
+                                </div>
+                            
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="contenido_total">
+                    <div class="envio">
+                        <h3>Shipping</h3>
+                        <span>$19</span>
+                    </div>
+                    <div class="total">
+                        <h3>Total</h3>
+                        <span>$148.98</span>
+                    </div>
+                </div>
+            </section>
+            <form action="" class="formulario">
+                <div>
+                    <h3>Contact infomation</h3>
+                </div>
+                <section>
+                    <label for="email">E-mail</label>
+                    <div>
+                        <span class="material-icons">email</span>
+                        <input type="text" name="email" id="email" placeholder="Enter your email...">
+                    </div>
+                </section>
+                <section>
+                    <label for="phone">Phone</label>
+                    <div>
+                        <span class="material-icons"> phone </span>
+                        <input type="text" name="phone" id="phone" placeholder="Enter your phone...">
+                    </div>
+                    
+                </section>
+                <div>
+                    <h3>Shipping address</h3>
+                </div>
+                <section>
+                    <label for="fullname">Full Name</label>               
+                    <div>
+                        <span class="material-icons"> account_circle</span>
+                        <input type="text" name="fullname" id="fullname" placeholder="Rodney Cotton">
+                    </div>
+                </section>
+                <section>
+                    <label for="address">Adress</label>
+                    <div>
+                        <span class="material-icons">home</span>
+                        <input type="text" name="address" id="address" placeholder="Your address..">
+                    </div>
+                </section>        
+                <section>
+                    <label for="city">City</label>     
+                    <div>
+                        <span class="material-icons">location_city</span>
+                        <input type="text" name="city" id="city" placeholder="Your city..">
+                    </div>
+                </section>
+                <section class="ubicacion">
+                    <div class="columna">
+                        <label for="">Country</label>               
+                        <div>
+                            <span class="material-icons">public</span>
+                            <input type="text" name="" id="" placeholder="Your country...">
+                        </div>
+                    </div>
+                   <div class="columna">
+                    <label for="">Postal Code</label>     
+                    <div>
+                        <span class="material-icons">markunread_mailbox</span>
+                        <input type="text" name="" id="" placeholder="Your postal code..">
+                    </div>
+                   </div>
+                   
+                </section>
+                <section class="terminos">
+                    <input type="checkbox" name="" id="terminos">
+                    <label for="terminos">Save this information for next time</label>          
+                </section>
+                <section>
+                    <input type="button" value="continue">
+                    
+                </section>
+            </form>
+        </article>
+       
+       <footer>
+            <p>
+                create by
+                <a href="https://devchallenges.io/portfolio/jean-carlos-19" target="_blank">piguavejc</a>
+                -
+                <a href="https://devchallenges.io/" target="_blank">devChallenges.io</a>
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
