@@ -41,7 +41,7 @@
     <ul>
         <li><a href="https://piguavejc-checkout-page-master.onrender.com/"> Ver demo </a></li>
         <li><a href="https://github.com/jean-carlos-19/checkout-page-master"> Ver solucion en github </a></li>
-        <li><a href="https://devchallenges.io/solutions/jgfUUBEmeJBDfeRDMcZX"> Ver solucion en Devchallenge </a></li>
+        <li><a href="https://devchallenges.io/solutions/iq8rFie9S0WyF7tllKEs"> Ver solucion en Devchallenge </a></li>
         <li><a href="https://www.figma.com/proto/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1"> Ver diseños en figma </a></li>
     </ul>
 </nav>
