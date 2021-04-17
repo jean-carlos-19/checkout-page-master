@@ -1,7 +1,7 @@
 .contenedor {
   width: 100%;
   padding: 0 01em;
-
+  animation: aparecePagina 1s ease-in-out 0s;
   article {
     @import "./venta/venta";
     @import "./formulario/formulario";
