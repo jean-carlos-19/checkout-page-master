@@ -1,0 +1,26 @@
+@media screen and(orientation: landscape) {
+  & {
+    margin: 0 auto;
+    article {
+      @include display_flex(row, space-between, flex-start);
+      .venta {
+        flex-basis: 50%;
+        order: 2;
+      }
+      .formulario {
+        flex-basis: 40%;
+        order: 1;
+      }
+    }
+  }
+}
+@media screen and(min-width:62.5em) {
+  & {
+    width: 80%;
+    .venta {
+      img {
+        width: 25vmax;
+      }
+    }
+  }
+}

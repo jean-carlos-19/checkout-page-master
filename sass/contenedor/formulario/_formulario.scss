@@ -8,24 +8,12 @@
       border-radius: 12px;
       padding: 1em;
       @include display_flex(row, flex-start, center);
-      span {
-        flex-basis: 7vmin;
-      }
       input[type="text"] {
         flex-basis: calc(100% - 7vmin);
         margin-left: 1rem;
         margin-top: 0;
         border: none;
         outline: none;
-      }
-
-      @media screen and(min-width:60em) {
-        span {
-          flex-basis: 4vmin;
-        }
-        input[type="text"] {
-          flex-basis: calc(100% - 4vmin);
-        }
       }
     }
     input[type="button"] {
@@ -46,18 +34,13 @@
   }
   .ubicacion {
     @include display_flex(row, space-between, center);
-
     .columna {
       flex-basis: 48%;
       margin-top: 0;
       border: none;
+      border-radius: 0;
       padding: 0;
       @include display_flex(column, flex-start, flex-start);
-      div {
-        span {
-          flex-basis: 7vmin;
-        }
-      }
     }
   }
   .terminos {
@@ -65,12 +48,9 @@
     @include display_flex(row, flex-start, center);
     label {
       margin-top: 0;
-      flex-basis: 95%;
       margin-left: 0.5rem;
     }
     input[type="checkbox"] {
-      flex-basis: 5%;
-
       border: none;
       outline: none;
       border: 1px solid #828282;

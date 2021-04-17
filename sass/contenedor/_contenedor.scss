@@ -7,22 +7,5 @@
     @import "./formulario/formulario";
   }
   @import "./pie_paina";
-
-  @media screen and(min-width:50em) {
-    margin: 0 auto;
-    article {
-      @include display_flex(row, space-between, flex-start);
-      .venta {
-        flex-basis: 50%;
-        order: 2;
-      }
-      .formulario {
-        flex-basis: 40%;
-        order: 1;
-      }
-    }
-  }
-  @media screen and(min-width:60em) {
-    width: 80%;
-  }
+  @import "./escritorio/escritorio";
 }

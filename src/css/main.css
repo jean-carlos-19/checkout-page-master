@@ -33,8 +33,8 @@ h1 {
 input[type="text"],
 span {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 15px;
   color: #828282; }
 
 label {
@@ -72,8 +72,18 @@ p {
         flex-basis: 50%; }
       .contenedor article .venta .articulo .figura .contenido {
         flex-basis: 35%; }
+        .contenedor article .venta .articulo .figura .contenido h5 {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          color: #f2994a; }
         .contenedor article .venta .articulo .figura .contenido span {
-          margin-left: 0.5rem; }
+          margin-left: 0.5rem;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 12px;
+          text-decoration-line: line-through;
+          color: #4e5150; }
         .contenedor article .venta .articulo .figura .contenido .numero_articulos {
           display: flex;
           flex-direction: row;
@@ -118,19 +128,12 @@ p {
       flex-direction: row;
       justify-content: flex-start;
       align-items: center; }
-      .contenedor article .formulario section div span {
-        flex-basis: 7vmin; }
       .contenedor article .formulario section div input[type="text"] {
         flex-basis: calc(100% - 7vmin);
         margin-left: 1rem;
         margin-top: 0;
         border: none;
         outline: none; }
-      @media screen and (min-width: 60em) {
-        .contenedor article .formulario section div span {
-          flex-basis: 4vmin; }
-        .contenedor article .formulario section div input[type="text"] {
-          flex-basis: calc(100% - 4vmin); } }
     .contenedor article .formulario section input[type="button"] {
       margin-top: 1rem;
       align-self: flex-end;
@@ -154,13 +157,12 @@ p {
       flex-basis: 48%;
       margin-top: 0;
       border: none;
+      border-radius: 0;
       padding: 0;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start; }
-      .contenedor article .formulario .ubicacion .columna div span {
-        flex-basis: 7vmin; }
   .contenedor article .formulario .terminos {
     width: 100%;
     display: flex;
@@ -169,10 +171,8 @@ p {
     align-items: center; }
     .contenedor article .formulario .terminos label {
       margin-top: 0;
-      flex-basis: 95%;
       margin-left: 0.5rem; }
     .contenedor article .formulario .terminos input[type="checkbox"] {
-      flex-basis: 5%;
       border: none;
       outline: none;
       border: 1px solid #828282; }
@@ -182,7 +182,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center; }
-  @media screen and (min-width: 50em) {
+  @media screen and (orientation: landscape) {
     .contenedor {
       margin: 0 auto; }
       .contenedor article {
@@ -196,6 +196,10 @@ p {
         .contenedor article .formulario {
           flex-basis: 40%;
           order: 1; } }
-  @media screen and (min-width: 60em) {
+  @media screen and (min-width: 62.5em) {
+    .contenedor :root {
+      font-size: 18px; }
     .contenedor {
-      width: 80%; } }
+      width: 80%; }
+      .contenedor .venta img {
+        width: 25vmax; } }

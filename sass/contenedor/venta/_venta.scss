@@ -11,8 +11,19 @@
       }
       .contenido {
         flex-basis: 35%;
+        h5 {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          color: #f2994a;
+        }
         span {
           margin-left: 0.5rem;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 12px;
+          text-decoration-line: line-through;
+          color: #4e5150;
         }
         .numero_articulos {
           @include display_flex(row, space-around, center);
