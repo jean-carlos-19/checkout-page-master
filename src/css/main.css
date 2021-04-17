@@ -17,32 +17,41 @@
 
 h3 {
   font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1rem;
+  line-height: 1.375rem;
   color: #333333;
-  transform: rotate(-0.02deg);
   text-transform: capitalize; }
 
 h1 {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
   color: #4e5150;
-  transform: rotate(-0.02deg); }
+  text-transform: initial; }
 
-input[type="text"],
+input[type="text"] {
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: #828282;
+  text-transform: initial;
+  border: none;
+  outline: none; }
+
 span {
   font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
-  color: #828282; }
+  font-size: 1rem;
+  line-height: 0.9375rem;
+  color: #828282;
+  text-transform: initial;
+  overflow: hidden; }
 
 label {
   font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
   color: #4f4f4f;
-  transform: rotate(-0.02deg); }
+  text-transform: initial; }
 
 img {
   max-width: 100%;
@@ -57,6 +66,11 @@ p {
 
 input[type="button"] {
   cursor: pointer; }
+
+input[type="checkbox"] {
+  border: none;
+  outline: none;
+  border: 1px solid #828282; }
 
 @keyframes aparecePagina {
   0% {
@@ -90,16 +104,19 @@ input[type="button"] {
         flex-basis: 35%; }
         .contenedor article .venta .articulo .figura .contenido h5 {
           font-weight: 600;
-          font-size: 14px;
-          line-height: 17px;
-          color: #f2994a; }
+          font-size: 1rem;
+          line-height: 1.0625rem;
+          color: #f2994a;
+          text-transform: initial;
+          overflow: hidden; }
         .contenedor article .venta .articulo .figura .contenido span {
           margin-left: 0.5rem;
-          font-weight: 600;
-          font-size: 10px;
-          line-height: 12px;
           text-decoration-line: line-through;
-          color: #4e5150; }
+          font-weight: 600;
+          font-size: 0.725rem;
+          line-height: 0.75rem;
+          color: #4e5150;
+          text-transform: initial; }
         .contenedor article .venta .articulo .figura .contenido .numero_articulos {
           display: flex;
           flex-direction: row;
@@ -136,10 +153,9 @@ input[type="button"] {
     align-items: flex-start; }
     .contenedor article .formulario section div {
       width: 100%;
-      border: 1px solid #828282;
-      box-sizing: border-box;
-      border-radius: 12px;
       padding: 1em;
+      border: 1px solid #828282;
+      border-radius: 0.75rem;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
@@ -147,23 +163,19 @@ input[type="button"] {
       .contenedor article .formulario section div input[type="text"] {
         flex-basis: calc(100% - 7vmin);
         margin-left: 1rem;
-        margin-top: 0;
-        border: none;
-        outline: none; }
+        margin-top: 0; }
     .contenedor article .formulario section input[type="button"] {
       margin-top: 1rem;
-      align-self: flex-end;
       padding: 0.5em 1em;
-      background: #f2994a;
-      text-transform: capitalize;
+      align-self: flex-end;
       border: none;
-      border-radius: 12px;
-      font-family: Montserrat;
-      font-style: normal;
+      border-radius: 0.75rem;
       font-weight: 600;
-      font-size: 16px;
-      line-height: 20px;
-      color: #ffffff; }
+      font-size: 1rem;
+      line-height: 1.25rem;
+      color: #ffffff;
+      text-transform: capitalize;
+      background: #f2994a; }
   .contenedor article .formulario .ubicacion {
     display: flex;
     flex-direction: row;
@@ -172,9 +184,9 @@ input[type="button"] {
     .contenedor article .formulario .ubicacion .columna {
       flex-basis: 48%;
       margin-top: 0;
+      padding: 0;
       border: none;
       border-radius: 0;
-      padding: 0;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -188,10 +200,6 @@ input[type="button"] {
     .contenedor article .formulario .terminos label {
       margin-top: 0;
       margin-left: 0.5rem; }
-    .contenedor article .formulario .terminos input[type="checkbox"] {
-      border: none;
-      outline: none;
-      border: 1px solid #828282; }
   .contenedor footer {
     padding: 1em;
     display: flex;
@@ -207,10 +215,10 @@ input[type="button"] {
         justify-content: space-between;
         align-items: flex-start; }
         .contenedor article .venta {
-          flex-basis: 50%;
+          flex-basis: 40%;
           order: 2; }
         .contenedor article .formulario {
-          flex-basis: 40%;
+          flex-basis: 55%;
           order: 1; } }
   @media screen and (min-width: 62.5em) {
     .contenedor {

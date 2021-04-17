@@ -4,3 +4,10 @@
   justify-content: $principal;
   align-items: $secundaria;
 }
+@mixin estilo_texto($negrita, $tamano, $interlineado, $color, $mayuscula) {
+  font-weight: $negrita;
+  font-size: $tamano;
+  line-height: $interlineado;
+  color: $color;
+  text-transform: $mayuscula;
+}

@@ -3,33 +3,25 @@
     @include display_flex(column, flex-start, flex-start);
     div {
       width: 100%;
-      border: 1px solid #828282;
-      box-sizing: border-box;
-      border-radius: 12px;
       padding: 1em;
+      border: 1px solid #828282;
+      border-radius: 0.75rem;
+
       @include display_flex(row, flex-start, center);
       input[type="text"] {
         flex-basis: calc(100% - 7vmin);
         margin-left: 1rem;
         margin-top: 0;
-        border: none;
-        outline: none;
       }
     }
     input[type="button"] {
       margin-top: 1rem;
-      align-self: flex-end;
       padding: 0.5em 1em;
-      background: #f2994a;
-      text-transform: capitalize;
+      align-self: flex-end;
       border: none;
-      border-radius: 12px;
-      font-family: Montserrat;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 20px;
-      color: #ffffff;
+      border-radius: 0.75rem;
+      @include estilo_texto(600, 1rem, 1.25rem, #ffffff, capitalize);
+      background: #f2994a;
     }
   }
   .ubicacion {
@@ -37,9 +29,9 @@
     .columna {
       flex-basis: 48%;
       margin-top: 0;
+      padding: 0;
       border: none;
       border-radius: 0;
-      padding: 0;
       @include display_flex(column, flex-start, flex-start);
     }
   }
@@ -49,11 +41,6 @@
     label {
       margin-top: 0;
       margin-left: 0.5rem;
-    }
-    input[type="checkbox"] {
-      border: none;
-      outline: none;
-      border: 1px solid #828282;
     }
   }
 }

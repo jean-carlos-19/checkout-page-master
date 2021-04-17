@@ -4,11 +4,11 @@
     article {
       @include display_flex(row, space-between, flex-start);
       .venta {
-        flex-basis: 50%;
+        flex-basis: 40%;
         order: 2;
       }
       .formulario {
-        flex-basis: 40%;
+        flex-basis: 55%;
         order: 1;
       }
     }
