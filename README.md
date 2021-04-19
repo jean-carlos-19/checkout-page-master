@@ -35,7 +35,7 @@
             <h3>
                 <a href="https://piguavejc-checkout-page-master.onrender.com/">Demo</a><span> | </span>
                 <a href="https://github.com/jean-carlos-19/checkout-page-master">Github </a><span> | </span>
-                <a href="https://github.com/jean-carlos-19/404/#-construido-con-">Devchallenge</a>
+                <a href="https://github.com/jean-carlos-19/404/#-construido-con-">Devchallenge</a> </a><span> | </span>
                 <a href="https://www.figma.com/proto/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1">Figma<a>
             </h3>
         </ul>
