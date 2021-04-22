@@ -64,6 +64,20 @@
     <p>
         Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
     </p>
+    
+    <p>
+    Desafío: crea una página de pago siguiendo el diseño. No necesita usar JS en este desafío, pero use los tipos de entrada y la validación correctos. No mire la solución existente. Cumplir con las historias de usuario a continuación:
+    </p>
+     <nav>.
+        <ul>
+            <li>Historia de usuario: puedo ver una página siguiendo el diseño dado</li>
+            <li>Historia de usuario: puedo ingresar correo electrónico, teléfono, nombre completo, dirección, ciudad, país y código postal</li>
+            <li>Historia de usuario: puedo ingresar el número de elementos</li> 
+            <li>Historia de usuario: puedo seleccionar al menos 3 países del menú desplegable</li> 
+             <li>Historia de usuario: cuando hago clic en el botón enviar o presiono enter, puedo ver una advertencia si falla la validación</li> 
+            <li>  Historia de usuario: cuando hago clic en el botón Enviar o presiono Intro, puedo ver una alerta exitosa si la validación se realiza correctamente</li> 
+        </ul>
+    </nav>
 </section>
 <section >
      <section>
