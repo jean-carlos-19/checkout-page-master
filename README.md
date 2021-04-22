@@ -64,7 +64,6 @@
     <p>
         Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
     </p>
-    
     <p>
     Desafío: crea una página de pago siguiendo el diseño. No necesita usar JS en este desafío, pero use los tipos de entrada y la validación correctos. No mire la solución existente. Cumplir con las historias de usuario a continuación:
     </p>
