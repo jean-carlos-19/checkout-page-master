@@ -1,0 +1,6 @@
+.ubicacion {
+  @include display_flex(row, space-between, center);
+  & > * + * {
+    margin-left: 0.5rem;
+  }
+}

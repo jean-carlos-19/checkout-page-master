@@ -1,0 +1,18 @@
+.home {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 2rem 0.75rem;
+  animation: apareceSitio 0.8s linear;
+  & > * + * {
+    margin-top: 1.31rem;
+
+    &:last-child {
+      margin-top: 5.87rem;
+    }
+  }
+}
+@media screen and(min-width:50rem) {
+  .home {
+    padding: 4rem 6.25rem;
+  }
+}

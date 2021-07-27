@@ -1,0 +1,14 @@
+.venta {
+  padding: 1.25rem;
+  background-color: var(--color_secundario_gris_600);
+  border-radius: 0.75rem;
+
+  & > * + * {
+    margin-top: 5.5rem;
+  }
+}
+@media screen and(min-width:50rem) {
+  .venta {
+    order: 2;
+  }
+}

@@ -1,0 +1,5 @@
+.fila {
+  & > * + * {
+    margin-top: 1rem;
+  }
+}

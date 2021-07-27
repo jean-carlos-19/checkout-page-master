@@ -1,0 +1,5 @@
+.producto {
+  & > * + * {
+    margin-top: 1.81rem;
+  }
+}

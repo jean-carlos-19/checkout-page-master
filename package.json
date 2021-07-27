@@ -5,7 +5,7 @@
   "author": "Jean Carlos Piguave Alvarado <you@example.com>",
   "license": "MIT",
   "scripts": {
-    "sass":"node-sass -w sass -o src/css",
-    "formateo":"prettier -w ./"
+    "sass": "node-sass -w sass -o src/css",
+    "prettier": "prettier -w ./*"
   }
 }

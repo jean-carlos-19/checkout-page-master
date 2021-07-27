@@ -1,0 +1,6 @@
+.contenido {
+  flex-basis: 50%;
+  & > * + * {
+    margin-top: 1.87rem;
+  }
+}

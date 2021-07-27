@@ -1,0 +1,22 @@
+:root {
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: "Montserrat", sans-serif;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  overflow: inherit;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  color: var(--color_secundario_oscuro);
+  text-decoration: none;
+}

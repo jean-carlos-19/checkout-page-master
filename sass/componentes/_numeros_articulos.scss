@@ -1,0 +1,6 @@
+.numero_articulos {
+  @include display_flex(row, space-between, center);
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
