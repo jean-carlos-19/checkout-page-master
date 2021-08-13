@@ -1,0 +1,8 @@
+.mensaje {
+  padding: 0.5rem; /*8/16*/
+  border: none;
+  border-radius: var(--tamano_border); /*8/16*/
+  .parrafo_mensaje {
+    color: var(--color_secundario_blanco);
+  }
+}

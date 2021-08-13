@@ -1,16 +1,15 @@
 .terminos {
-  width: 100%;
   @include display_flex(row, flex-start, center);
   .etiqueta {
     margin-top: 0;
-    margin-left: 0.5rem;
+    margin-left: 0.5rem; /*8/16*/
   }
 }
-@media screen and(min-width:50rem) {
+@media screen and(min-width:60rem) {
   .terminos {
     .etiqueta {
-      font-size: 0.75rem;
-      line-height: 0.93rem;
+      font-size: 0.75rem; /*12/16*/
+      line-height: 0.93rem; /*15/16*/
     }
   }
 }

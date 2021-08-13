@@ -1,13 +1,14 @@
 .articulo {
   & > * + * {
-    margin-top: 2.5rem;
+    margin-top: 2.43rem; /*39/16*/
   }
 }
-@media screen and(min-width:50rem) {
+@media screen and(min-width:60rem) {
   .articulo {
     @include display-flex(row, space-between, flex-start);
     & > * + * {
-      margin-right: 7rem;
+      margin-top: 0;
+      margin-right: 7rem; /*112/16*/
     }
   }
 }

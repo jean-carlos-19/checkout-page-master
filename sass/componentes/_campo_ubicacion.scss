@@ -1,6 +1,9 @@
 .ubicacion {
   @include display_flex(row, space-between, center);
   & > * + * {
-    margin-left: 0.5rem;
+    margin-left: 0.5rem; /*8/16*/
+  }
+  .mensaje_advertencia {
+    width: 50%;
   }
 }

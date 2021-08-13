@@ -1,18 +1,26 @@
 .home {
-  max-width: 90rem;
+  max-width: var(--ancho_maximo);
   margin: 0 auto;
-  padding: 2rem 0.75rem;
-  animation: apareceSitio 0.8s linear;
+  padding: var(--relleno_movil);
+  animation: aparece_sitio 0.8s linear;
   & > * + * {
-    margin-top: 1.31rem;
+    margin-top: 1.31rem; /* 20.96/16 */
 
     &:last-child {
-      margin-top: 5.87rem;
+      margin-top: 5.93rem; /* 94.98/16*/
     }
   }
 }
 @media screen and(min-width:50rem) {
   .home {
-    padding: 4rem 6.25rem;
+    padding: var(--relleno_escritorio);
+
+    & > * + * {
+      margin-top: 3.18rem; /* 50.94/16 */
+
+      &:last-child {
+        margin-top: 9.93rem; /* 159/16*/
+      }
+    }
   }
 }

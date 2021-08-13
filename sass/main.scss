@@ -5,13 +5,15 @@
 @import "base/fuentes", "base/animaciones", "base/normalizar", "base/base",
   "base/ayudantes";
 
-@import "diseño/encabezado", "diseño/contenido", "diseño/venta",
-  "diseño/formulario", "diseño/tarjeta", "diseño/producto", "diseño/articulo",
+@import "diseño/encabezado", "diseño/contenido", "diseño/articulo",
+  "diseño/venta", "diseño/formulario", "diseño/producto", "diseño/tarjeta",
   "diseño/fila", "diseño/pie_pagina";
 
-@import "componentes/descripcion", "componentes/detalle", "componentes/envio",
-  "componentes/figura", "componentes/numeros_articulos", "componentes/campo",
-  "componentes/campo_ubicacion", "componentes/campos_terminos";
+@import "componentes/descripcion", "componentes/envio", "componentes/figura",
+  "componentes/numeros_articulos", "componentes/campo", "componentes/caja",
+  "componentes/campo_ubicacion", "componentes/campos_terminos",
+  "componentes/mensaje", "./componentes/mensaje_adveretencia",
+  "componentes/mensaje_confirmacion";
 
 @import "paginas/home";
 

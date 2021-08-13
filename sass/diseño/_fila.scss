@@ -1,5 +1,10 @@
 .fila {
   & > * + * {
-    margin-top: 1rem;
+    margin-top: 1.03rem; /*16.52/16*/
+  }
+}
+@media screen and(min-width:60rem) {
+  .fila > * + * {
+    margin-top: 1.25rem; /*20.01/16*/
   }
 }

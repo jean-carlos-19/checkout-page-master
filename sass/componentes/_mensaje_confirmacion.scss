@@ -1,0 +1,7 @@
+.mensaje_confirmacion {
+  visibility: hidden;
+  background-color: var(--color_secunadario_verde);
+}
+.mensaje_confirmacion_activo {
+  animation: muestra_mensaje_confirmacion 10s linear 0s;
+}

@@ -1,5 +1,13 @@
 .producto {
   & > * + * {
-    margin-top: 1.81rem;
+    margin-top: 1.8rem; /*28.89/16*/
+  }
+}
+
+@media screen and(min-width:60rem) {
+  .producto {
+    & > * + * {
+      margin-top: 1.97rem; /*31.59/16*/
+    }
   }
 }

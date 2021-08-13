@@ -1,18 +1,14 @@
 .formulario {
-  .titulo_formulario {
-    font-size: 0.87rem;
-    line-height: 1.06rem;
-  }
   & > * + * {
-    margin-top: 2.81rem;
+    margin-top: 2.81rem; /*45.04/16*/
   }
 }
-@media screen and(min-width:50rem) {
+@media screen and(min-width:60rem) {
   .formulario {
+    flex-basis: 40%;
     order: 1;
-    .titulo_formulario {
-      font-size: 1.12rem;
-      line-height: 1.37rem;
+    & > * + * {
+      margin-top: 3.62rem; /*58.01/16*/
     }
   }
 }

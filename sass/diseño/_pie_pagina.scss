@@ -1,18 +1,9 @@
 .pie_pagina {
-  .parrfo_pie_pagina {
-    color: var(--color_secundario_gris_400);
-  }
-  .enlace_pie_pagina {
-    font-style: italic;
-    font-weight: bolder;
-    color: inherit;
-  }
-}
-@media screen and(min-width:50rem) {
-  .pie_pagina {
-    .parrfo_pie_pagina {
-      font-size: 0.87rem;
-      line-height: 1.06rem;
+  .parrafo_pie_pagina {
+    text-align: center;
+    .enlace_pie_pagina {
+      font-weight: bold;
+      color: inherit;
     }
   }
 }

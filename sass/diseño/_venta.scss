@@ -1,14 +1,20 @@
 .venta {
-  padding: 1.25rem;
+  padding: 1.91rem; /*30.56/16*/
   background-color: var(--color_secundario_gris_600);
-  border-radius: 0.75rem;
+  border-radius: var(--tamano_border); /*12/16*/
 
   & > * + * {
-    margin-top: 5.5rem;
+    margin-top: 5.42rem; /*86.79/16*/
   }
 }
-@media screen and(min-width:50rem) {
+@media screen and(min-width:60rem) {
   .venta {
+    flex-basis: 40%; /* (383/(1440-180))*100 */
+    padding: 2.08rem; /*33.41/16*/
     order: 2;
+
+    & > * + * {
+      margin-top: 5.99rem; /*95.94/16*/
+    }
   }
 }

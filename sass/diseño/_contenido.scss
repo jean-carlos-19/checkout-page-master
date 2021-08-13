@@ -1,6 +1,14 @@
 .contenido {
-  flex-basis: 50%;
+  flex-basis: 35.08%; /* (122.80/350)*100 */
   & > * + * {
-    margin-top: 1.87rem;
+    margin-top: 1.38rem; /*22.13/16*/
+  }
+}
+@media screen and(min-width:60rem) {
+  .contenido {
+    flex-basis: 35.05%; /* (134.25/383)*100 */
+    & > * + * {
+      margin-top: 2.06rem; /*33.05/16*/
+    }
   }
 }

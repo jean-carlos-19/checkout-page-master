@@ -1,34 +1,16 @@
 .descripcion {
   & > * + * {
-    margin-top: 1rem;
+    margin-top: 0.34rem; /*5.49/16*/
   }
-  .titulo_descripcion {
-    font-size: 0.75rem;
-    line-height: 0.93rem;
-  }
-  .precio_descripcion {
-    font-size: 0.87rem;
-    line-height: 1.06rem;
-    color: var(--color_primario);
-
-    .precio_anterior_descripcion {
-      text-decoration-line: line-through;
-    }
+  .normal_extra_pequeña_descripcion {
+    text-decoration: line-through;
   }
 }
-@media screen and(min-width:50rem) {
+
+@media screen and(min-width:60rem) {
   .descripcion {
-    .titulo_descripcion {
-      font-size: 1rem;
-      line-height: 1.25rem;
-    }
-    .precio_descripcion {
-      font-size: 1rem;
-      line-height: 1.25rem;
-      .precio_anterior_descripcion {
-        font-size: 0.75rem;
-        line-height: 0.93rem;
-      }
+    & > * + * {
+      margin-top: 0.37rem; /*6/16*/
     }
   }
 }

@@ -1,28 +1,5 @@
 .envio {
-  padding: 13px 0;
+  padding: 0.81rem 0; /* 13/16*/
   border-top: 1px solid var(--color_secundario_gris_400);
   @include display_flex(row, space-between, center);
-  .titulo_envio {
-    font-size: 0.87rem;
-    line-height: 1.06rem;
-    color: var(--color_secundario_gris_100);
-  }
-  .precio_envio {
-    font-size: 0.87rem;
-    line-height: 1.06rem;
-    text-align: right;
-    color: var(--color_secundario_gris_100);
-  }
-}
-@media screen and(min-width:50rem) {
-  .envio {
-    .titulo_envio {
-      font-size: 1.12rem;
-      line-height: 1.37rem;
-    }
-    .precio_envio {
-      font-size: 0.87rem;
-      line-height: 1.06rem;
-    }
-  }
 }
