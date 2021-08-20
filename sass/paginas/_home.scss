@@ -2,7 +2,6 @@
   max-width: var(--ancho_maximo);
   margin: 0 auto;
   padding: var(--relleno_movil);
-  animation: aparece_sitio 0.8s linear;
   & > * + * {
     margin-top: 1.31rem; /* 20.96/16 */
 

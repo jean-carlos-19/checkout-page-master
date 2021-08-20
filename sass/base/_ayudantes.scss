@@ -1,131 +1,85 @@
 .titulo {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_titulo_movil);
-  line-height: var(--interlineado_titulo_movil);
+  font-size: var(--tamano_titulo);
+  line-height: var(--interlineado_titulo);
   color: var(--color_secundario_oscuro);
   transform: rotate(-0.02deg);
-  @media screen and(min-width:37.5rem) {
-    & {
-      font-size: var(--tamano_titulo_escritorio);
-      line-height: 1.81rem; /*44/16*/
-    }
-  }
 }
 .titulo_2 {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_titulo_2_movil);
-  line-height: var(--interlineado_titulo_2_movil);
+  font-size: var(--tamano_titulo_2);
+  line-height: var(--interlineado_titulo_2);
   color: var(--color_secundario_gris_100);
-  @media screen and(min-width:37.5rem) {
-    & {
-      font-size: var(--tamano_titulo_2_escritorio);
-      line-height: var(--interlineado_titulo_2_escritorio);
-    }
-  }
 }
 .titulo_3 {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_titulo_3_movil);
-  line-height: var(--interlineado_titulo_3_movil);
+  font-size: var(--tamano_titulo_3);
+  line-height: var(--interlineado_titulo_3);
   color: var(--color_secundario_oscuro);
-  @media screen and(min-width:37.5rem) {
-    & {
-      font-size: var(--tamano_titulo_3_escritorio);
-      line-height: var(--interlineado_titulo_3_escritorio);
-    }
-  }
 }
 .etiqueta {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_etiqueta_movil);
-  line-height: var(--interlineado_etiqueta_movil);
+  font-size: var(--tamano_etiqueta);
+  line-height: var(--interlineado_etiqueta);
   color: var(--color_secundario_gris_200);
-  @media screen and(min-width:37.5rem) {
-    & {
-      font-size: var(--tamano_etiqueta_escritorio);
-      line-height: var(--interlineado_etiqueta_escritorio);
-    }
-  }
 }
 .parrafo {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_parrafo_movil);
-  line-height: var(--interlineado_parrafo_movil);
+  font-size: var(--tamano_parrafo);
+  line-height: var(--interlineado_parrafo);
   color: var(--color_secundario_gris_400);
 }
 .normal {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_normal_movil);
-  line-height: var(--interlineado_normal_movil);
+  font-size: var(--tamano_normal);
+  line-height: var(--interlineado_normal);
   color: var(--color_secundario_gris_300);
-  @media screen and(min-width:37.5rem) {
-    & {
-      font-size: var(--tamano_normal_escritorio);
-      line-height: var(--interlineado_normal_escriotrio);
-    }
-  }
+
 }
-.normal_pequeña {
-  font-family: "Montserrat" sans-serif;
+.normal_pequeno {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_extra_pequeña_movil); /*14/16*/
-  line-height: var(--interlineado_normal_pequeño_movil);
+  font-size: var(--tamano_extra_pequeno); /*14/16*/
+  line-height: var(--interlineado_normal_pequeno);
   color: var(--color_primario);
-  @media screen and(min-width:37.5rem) {
-    & {
-      //font-size: 1.5rem;/*16/16*/
-      //line-height: 1.81rem;/*20/16*/
-    }
-  }
 }
-.normal_extra_pequeña {
-  font-family: "Montserrat" sans-serif;
+.normal_extra_pequeno {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_normal_pequeña_movil);
-  line-height: var(--interlineado_normal_estra_pequeño_movil);
+  font-size: var(--tamano_normal_pequeno);
+  line-height: var(--interlineado_normal_estra_pequeno);
   color: var(--color_secundario_oscuro);
-  @media screen and(min-width:37.5rem) {
-    & {
-      font-size: var(--tamano_normal_pequeña_escritorio);
-      line-height: var(--interlineado_normal_extra_pequeña_escritorio);
-    }
-  }
+
 }
 .unidad {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_unidad_movil);
-  line-height: var(--interlineado_unidad_movil);
+  font-size: var(--tamano_unidad);
+  line-height: var(--interlineado_unidad);
   color: var(--color_secundario_gris_100);
 }
 .boton {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--tamano_boton_movil);
-  line-height: var(--interlineado_boton_movil);
+  font-size: var(--tamano_boton);
+  line-height: var(--interlineado_boton);
   color: var(--color_secundario_blanco);
-  @media screen and(min-width:37.5rem) {
-    & {
-      //font-size: 1.5rem;/*16/16*/
-      //line-height: 1.81rem;/*20/16*/
-    }
-  }
 }
 .icono {
   color: var(--color_secundario_gris_300);

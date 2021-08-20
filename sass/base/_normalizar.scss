@@ -1,4 +1,26 @@
 :root {
+  /*
+  movil:(x=375,y=1331)
+  escritorio:(x=1440,y=1140)
+*/
+
+  @include colores();
+  @include border();
+
+  @include titulo();
+  @include titulo_2();
+  @include titulo_3();
+  @include etiqueta();
+  @include parrafo();
+  @include normal();
+  @include normal_pequeno();
+  @include normal_extra_pequeno();
+  @include unidad();
+  @include boton();
+
+  @include rellenos();
+  @include anchos();
+
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
