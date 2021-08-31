@@ -1,0 +1,16 @@
+.titulo_1 {
+  font-size: var(--tamano_titulo_1);
+  line-height: var(--interlineado_titulo_1);
+  color: var(--color_secundario_oscuro);
+  transform: rotate(-0.02deg);
+}
+.titulo_2 {
+  font-size: var(--tamano_titulo_2);
+  line-height: var(--interlineado_titulo_2);
+  color: var(--color_secundario_gris_100);
+}
+.titulo_3 {
+  font-size: var(--tamano_titulo_3);
+  line-height: var(--interlineado_titulo_3);
+  color: var(--color_secundario_oscuro);
+}

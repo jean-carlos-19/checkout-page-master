@@ -4,3 +4,66 @@
   justify-content: $principal;
   align-items: $secundaria;
 }
+@mixin colores {
+  //colores
+  --color_primario: #f2994a;
+  --color_secundario_oscuro: #4e5150;
+  --color_secundario_gris_100: #333333;
+  --color_secundario_gris_200: #4f4f4f;
+  --color_secundario_gris_300: #828282;
+  --color_secundario_gris_400: #bdbdbd;
+  --color_secundario_gris_500: #e0e0e0;
+  --color_secundario_gris_600: #f2f2f2;
+  --color_secundario_blanco: #ffffff;
+  --color_secundario_rojo: #ff6b6b;
+  --color_secunadario_verde: #1dd1a1;
+}
+@mixin border {
+  // border
+  --tamano_border: 0.75rem; /*12/16*/
+}
+@mixin rellenos {
+  //rellenos
+  --relleno_movil: 2rem 0.75rem; /*32/16 , 12/16*/
+  --relleno_escritorio: 4rem 6.25rem; /*64/16 , */
+}
+@mixin anchos {
+  //anchos
+  --ancho_maximo: 90rem; /*1440/16*/
+}
+@mixin titulo_1 {
+  --tamano_titulo_1: #{$tamano_titulo_1_movil};
+  --interlineado_titulo_1: #{$interlineado_titulo_1_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_1: #{$tamano_titulo_1_escritorio};
+    --interlineado_titulo_1: #{$interlineado_titulo_1_escritorio};
+  }
+}
+@mixin titulo_2 {
+  --tamano_titulo_2: #{$tamano_titulo_2_movil};
+  --interlineado_titulo_2: #{$interlineado_titulo_2_movil};
+}
+@mixin titulo_3 {
+  --tamano_titulo_3: #{$tamano_titulo_3_movil};
+  --interlineado_titulo_3: #{$interlineado_titulo_3_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_3: #{$tamano_titulo_3_escritorio};
+    --interlineado_titulo_3: #{$interlineado_titulo_3_escritorio};
+  }
+}
+@mixin normal {
+  --tamano_normal: #{$tamano_normal_movil};
+  --interlineado_normal: #{$interlineado_normal_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_normal: #{$tamano_normal_escritorio};
+    --interlineado_normal: #{$interlineado_normal_escritorio};
+  }
+}
+@mixin pequeno {
+  --tamano_pequeno: #{$tamano_pequeno_movil};
+  --interlineado_pequeno: #{$interlineado_pequeno_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_pequeno: #{$tamano_pequeno_escritorio};
+    --interlineado_pequeno: #{$interlineado_pequeno_escritorio};
+  }
+}

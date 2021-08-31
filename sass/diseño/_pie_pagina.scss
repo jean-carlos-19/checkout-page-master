@@ -1,5 +1,7 @@
 .pie_pagina {
   .parrafo_pie_pagina {
+    font-size: #{$tamano_titulo_3_movil};
+    line-height: #{$interlineado_titulo_3_movil};
     text-align: center;
     .enlace_pie_pagina {
       font-weight: bold;

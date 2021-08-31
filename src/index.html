@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Jean Carlos Piguave Alvarado" />
-        <link rel="shortcut icon" href="./img/devchallenges.png" type="image/png" />
+        <link rel="shortcut icon" href="./img/contenido/devchallenges.png" type="image/png" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link rel="stylesheet" href="./css/main.css" />
         <title>Checkout Page Master</title>
@@ -13,7 +13,7 @@
     <body>
         <main class="home">
             <header class="encabezado">
-                <h1 class="titulo titulo_encabezado">Checkout</h1>
+                <h1 class="titulo titulo_encabezado titulo_1">Checkout</h1>
             </header>
 
             <div class="articulo">
@@ -21,60 +21,68 @@
                     <div class="producto producto_venta">
                         <div class="tarjeta tarjeta_producto">
                             <figure class="figura figura_tarjeta">
-                                <img class="imagen imagen_figura" src="./img/photo1.png" alt="" />
+                                <img
+                                    class="imagen imagen_figura"
+                                    src="./img/contenido/photo1.png"
+                                    alt="mchila clasica color gris y cafe"
+                                />
                             </figure>
 
                             <article class="contenido contenido_tarjeta">
                                 <header class="descripcion descripcion_contenido">
-                                    <h4 class="normal normal_descripcion">Vintage Bacbag</h4>
-                                    <h5 class="normal_pequeno normal_pequeno_descripcion">
+                                    <h4 class="titulo titulo_descripcion normal">Vintage Bacbag</h4>
+                                    <p class="parrafo parrafo_descripcion titulo_3">
                                         54.99
-                                        <span class="normal_extra_pequeno normal_extra_pequeno_descripcion">$94.99</span>
-                                    </h5>
+                                        <span class="precio precio_parrafo pequeno">$94.99</span>
+                                    </p>
                                 </header>
 
-                                <section class="numero_articulos numero_articulos_contenido">
+                                <div class="numero_articulos numero_articulos_contenido">
                                     <input
-                                        class="boton boton_numero_articulos disminuir_numero_articulos"
+                                        class="boton boton_numero_articulos disminuir_numero_articulos normal"
                                         type="button"
                                         value="-"
                                         title="disminuir compra"
                                     />
-                                    <h3 class="unidad unidad_numero_articulos">1</h3>
+                                    <p class="parrafo parrafo_numero_articulos pequeno">1</p>
                                     <input
-                                        class="boton boton_numero_articulos aumentar_numero_articulos"
+                                        class="boton boton_numero_articulos aumentar_numero_articulos normal"
                                         type="button"
                                         value="+"
                                         title="aumentar compra"
                                     />
-                                </section>
+                                </div>
                             </article>
                         </div>
 
                         <div class="tarjeta tarjeta_producto">
                             <figure class="figura figura_tarjeta">
-                                <img class="imagen imagen_figura" src="./img/photo2.png" alt="" />
+                                <img
+                                    class="imagen imagen_figura"
+                                    src="./img/contenido/photo2.png"
+                                    alt="zapatos conver color azules talla 8"
+                                />
                             </figure>
 
                             <article class="contenido">
                                 <header class="descripcion descripcion_contenido">
-                                    <h4 class="normal normal_descripcion">Levi Shoes</h4>
-                                    <h5 class="normal_pequeno normal_pequeno_descripcion">
+                                    <h3 class="titulo titulo_descripcion normal">Levi Shoes</h3>
+                                    <p class="parrafo parrafo_descripcion titulo_3">
                                         74.99
-                                        <span class="normal_extra_pequeno normal_extra_pequeno_descripcion">$124.99</span>
-                                    </h5>
+                                        <span class="precio precio_parrafo pequeno">$124.99</span>
+                                    </p>
                                 </header>
 
                                 <section class="numero_articulos numero_articulos_contenido">
                                     <input
-                                        class="boton boton_numero_articulos disminuir_numero_articulos"
+                                        class="boton boton_numero_articulos disminuir_numero_articulos normal"
                                         type="button"
                                         value="-"
                                         title="disminuir compra"
                                     />
-                                    <h3 class="unidad unidad_numero_articulos">1</h3>
+                                    <h3 class="parrafo parrafo_numero_articulos pequeno">1</h3>
                                     <input
-                                        class="boton boton_numero_articulos aumentar_numero_articulos"
+                                        class="boton boton_numero_articulos aumentar_numero_articulos normal"
                                         type="button"
                                         value="+"
                                         title="aumentar compra"
@@ -86,27 +94,27 @@
 
                     <div class="detalle detalle_venta">
                         <section class="envio envio_detalle">
-                            <h3 class="titulo_2 titulo_2_envio">Shipping</h3>
-                            <span class="normal_extra_pequeno detalle_envio">$19</span>
+                            <h3 class="titulo titulo_envio titulo_3">Shipping</h3>
+                            <span class="parrafo parrafo_envio titulo_3">$19</span>
                         </section>
 
                         <section class="envio envio_detalle">
-                            <h3 class="titulo_2 titulo_2_envio">Total</h3>
-                            <span class="normal_extra_pequeno detalle_envio">$148.98</span>
+                            <h3 class="titulo titulo_envio titulo_3">Total</h3>
+                            <span class="parrafo parrafo_envio titulo_3">$148.98</span>
                         </section>
                     </div>
                 </div>
 
                 <form class="formulario">
                     <section class="fila fila_formulario">
-                        <h3 class="titulo_2 titulo_2_formulario">Contact infomation</h3>
+                        <h3 class="titulo titulo_formulario titulo_3">Contact infomation</h3>
 
                         <div class="campo campo_fila">
-                            <label class="etiqueta etiqueta_campo etiqueta_campo_correo" for="email">E-mail</label>
+                            <label class="etiqueta etiqueta_campo etiqueta_campo_correo pequeno" for="email">E-mail</label>
                             <div class="caja caja_campo">
                                 <span class="material-icons icono icono_caja icono_caja_email">email</span>
                                 <input
-                                    class="cuadro_texto cuadro_texto_caja"
+                                    class="cuadro_texto cuadro_texto_caja normal"
                                     type="email"
                                     name="email"
                                     id="email"
@@ -116,15 +124,15 @@
                         </div>
 
                         <div class="mensaje mensaje_advertencia mensaje_advertencia_fila">
-                            <p class="parrafo parrafo_mensaje" id="advertencia_correo"></p>
+                            <p class="parrafo parrafo_mensaje pequeno" id="advertencia_correo"></p>
                         </div>
 
                         <div class="campo campo_fila">
-                            <label class="etiqueta etiqueta_campo etiqueta_campo_telefono" for="phone">Phone</label>
+                            <label class="etiqueta etiqueta_campo etiqueta_campo_telefono pequeno" for="phone">Phone</label>
                             <div class="caja caja_campo">
                                 <span class="material-icons icono icono_caja icono_caja_telefono"> phone </span>
                                 <input
-                                    class="cuadro_texto cuadro_texto_caja"
+                                    class="cuadro_texto cuadro_texto_caja normal"
                                     type="text"
                                     name="phone"
                                     id="phone"
@@ -134,19 +142,19 @@
                         </div>
 
                         <div class="mensaje mensaje_advertencia mensaje_advertencia_fila">
-                            <p class="parrafo parrafo_mensaje" id="advertencia_telefono"></p>
+                            <p class="parrafo parrafo_mensaje pequeno" id="advertencia_telefono"></p>
                         </div>
                     </section>
 
                     <section class="fila fila_formulario">
-                        <h3 class="titulo_2 titulo_2_formulario">Shipping address</h3>
+                        <h3 class="titulo titulo_formulario titulo_3">Shipping address</h3>
 
                         <div class="campo campo_fila">
-                            <label class="etiqueta etiqueta_campo etiqueta_campo_nombres" for="fullname">Full Name</label>
+                            <label class="etiqueta etiqueta_campo etiqueta_campo_nombres pequeno" for="fullname">Full Name</label>
                             <div class="caja caja_campo">
                                 <span class="material-icons icono icono_caja icono_caja_nombres"> account_circle</span>
                                 <input
-                                    class="cuadro_texto cuadro_texto_caja"
+                                    class="cuadro_texto cuadro_texto_caja normal"
                                     type="text"
                                     name="fullname"
                                     id="fullname"
@@ -156,11 +164,11 @@
                         </div>
 
                         <div class="mensaje mensaje_advertencia mensaje_advertencia_fila">
-                            <p class="parrafo parrafo_mensaje" id="advertencia_nombres_completo"></p>
+                            <p class="parrafo parrafo_mensaje pequeno" id="advertencia_nombres_completo"></p>
                         </div>
 
                         <div class="campo campo_fila">
-                            <label class="etiqueta etiqueta_campo etiqueta_campo_direccion" for="address">Adress</label>
+                            <label class="etiqueta etiqueta_campo etiqueta_campo_direccion pequeno" for="address">Adress</label>
                             <div class="caja caja_campo">
                                 <span class="material-icons icono icono_caja icono_caja_direccion">home</span>
                                 <input
@@ -174,15 +182,15 @@
                         </div>
 
                         <div class="mensaje mensaje_advertencia mensaje_advertencia_fila">
-                            <p class="parrafo parrafo_mensaje" id="advertencia_direccion"></p>
+                            <p class="parrafo parrafo_mensaje pequeno" id="advertencia_direccion"></p>
                         </div>
 
                         <div class="campo campo_fila">
-                            <label class="etiqueta etiqueta_campo etiqueta_campo_ciudad" for="city">City</label>
+                            <label class="etiqueta etiqueta_campo etiqueta_campo_ciudad pequeno" for="city">City</label>
                             <div class="caja caja_campo">
                                 <span class="material-icons icono icono_caja icono_caja_ciudad">location_city</span>
                                 <input
-                                    class="cuadro_texto cuadro_texto_caja"
+                                    class="cuadro_texto cuadro_texto_caja normal"
                                     type="text"
                                     name="city"
                                     id="city"
@@ -192,17 +200,17 @@
                         </div>
 
                         <div class="mensaje mensaje_advertencia mensaje_advertencia_fila">
-                            <p class="parrafo parrafo_mensaje" id="advertencia_ciudad"></p>
+                            <p class="parrafo parrafo_mensaje pequeno" id="advertencia_ciudad"></p>
                         </div>
 
                         <div class="ubicacion ubicacion_fila">
                             <div class="campo">
-                                <label class="etiqueta etiqueta_campo etiqueta_pais" for="country">Country</label>
+                                <label class="etiqueta etiqueta_campo etiqueta_pais pequeno" for="country">Country</label>
                                 <div class="caja caja_campo">
                                     <span class="material-icons icono icono_campo icono_pais">public</span>
                                     <input
                                         type="text"
-                                        class="cuadro_texto cuadro_texto_caja"
+                                        class="cuadro_texto cuadro_texto_caja normal"
                                         name="country"
                                         id="country"
                                         placeholder="Your country..."
@@ -210,7 +218,7 @@
                                 </div>
                             </div>
                             <div class="campo">
-                                <label class="etiqueta etiqueta_campo etiqueta_campo_codigo_postal" for="postal_code"
+                                <label class="etiqueta etiqueta_campo etiqueta_campo_codigo_postal pequeno" for="postal_code"
                                     >Postal Code</label
                                 >
                                 <div class="caja">
@@ -218,7 +226,7 @@
                                         >markunread_mailbox</span
                                     >
                                     <input
-                                        class="cuadro_texto cuadro_texto_caja"
+                                        class="cuadro_texto cuadro_texto_caja normal"
                                         type="text"
                                         name="postal_code"
                                         id="postal_code"
@@ -230,32 +238,39 @@
 
                         <div class="ubicacion">
                             <div class="mensaje mensaje_advertencia">
-                                <p class="parrafo parrafo_mensaje" id="advertencia_pais"></p>
+                                <p class="parrafo parrafo_mensaje pequeno" id="advertencia_pais"></p>
                             </div>
 
                             <div class="mensaje mensaje_advertencia">
-                                <p class="parrafo parrafo_mensaje" id="advertencia_codigo_postal"></p>
+                                <p class="parrafo parrafo_mensaje pequeno" id="advertencia_codigo_postal"></p>
                             </div>
                         </div>
 
                         <div class="terminos terminos_fila">
                             <input class="check check_terminos" type="checkbox" name="terminos" id="terminos" />
-                            <label class="etiqueta etiqueta_terminos" for="terminos">Save this information for next time</label>
+                            <label class="etiqueta etiqueta_terminos pequeno" for="terminos"
+                                >Save this information for next time</label
+                            >
                         </div>
 
                         <div class="campo campo_fila">
-                            <input class="boton boton_campo boton_campo_enviar" type="submit" value="continue" id="enviar" />
+                            <input
+                                class="boton boton_campo boton_campo_enviar titulo_2"
+                                type="submit"
+                                value="continue"
+                                id="enviar"
+                            />
                         </div>
 
                         <div class="mensaje mensaje_confirmacion mensaje_confirmacion_fila">
-                            <p class="parrafo parrafo_mensaje" id="confirmacion_formulario"></p>
+                            <p class="parrafo parrafo_mensaje pequeno" id="confirmacion_formulario"></p>
                         </div>
                     </section>
                 </form>
             </div>
 
             <footer class="pie_pagina">
-                <p class="parrafo parrafo_pie_pagina">
+                <p class="parrafo parrafo_pie_pagina titulo_3">
                     create by
                     <a class="encace enlace_pie_pagina" href="https://devchallenges.io/portfolio/jean-carlos-19" target="_blank"
                         >piguavejc</a

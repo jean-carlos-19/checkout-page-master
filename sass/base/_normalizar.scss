@@ -7,17 +7,11 @@
   @include colores();
   @include border();
 
-  @include titulo();
+  @include titulo_1();
   @include titulo_2();
   @include titulo_3();
-  @include etiqueta();
-  @include parrafo();
   @include normal();
-  @include normal_pequeno();
-  @include normal_extra_pequeno();
-  @include unidad();
-  @include boton();
-
+  @include pequeno();
   @include rellenos();
   @include anchos();
 
@@ -31,12 +25,4 @@
   padding: 0;
   box-sizing: inherit;
   font-family: inherit;
-}
-
-img {
-  max-width: 100%;
-}
-a {
-  color: var(--color_secundario_oscuro);
-  text-decoration: none;
 }
