@@ -1,16 +1,41 @@
 {
-  "name": "checkout-page-master",
+  "name": "my-webpack-project",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Jean Carlos Piguave Alvarado <you@example.com>",
+  "author": {
+    "name": "Jean Carlos Piguave Alvarado",
+    "email": "piguavejc@gmail.com",
+    "url": "https://devchallenges.io/portfolio/jean-carlos-19"
+  },
   "license": "MIT",
   "scripts": {
-    "sass": "node-sass -w sass -o src/css",
+    "scss": "node-sass -w .src/sass -o dist/css",
     "prettier": "prettier -w ./*",
-    "webpack": "webpack -w"
+    "webpack": "webpack -w src -o dist",
+    "webpack-config": "webpack-cli init",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "dependencies": {
-    "webpack": "^5.50.0",
-    "webpack-cli": "^4.7.2"
-  }
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@webpack-cli/generators": "^2.4.2",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "description": "My webpack project"
 }

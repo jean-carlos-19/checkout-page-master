@@ -1,3 +1,11 @@
-checkout-page-master
-node_modules/
-.vscode 
+#Dependencias
+/node_modules
+
+#produccion
+/dist
+
+#informacion de instalaciones fallidad de paquetes al instalar paquetes de yarn 
+yarn.lock
+
+#extension de visual studio code
+.vscode

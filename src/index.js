@@ -1,4 +1,4 @@
-import { Formulario } from './Formulario';
+import { Formulario } from './js/Formulario';
 
 const formulario = new Formulario();
 formulario.obtener_boton_enviar().addEventListener('click', (evento) => {
