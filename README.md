@@ -17,7 +17,7 @@ _Reto: Crear una página de pago siguiendo el diseño propuesto por [DevChalleng
 
 
 ### Previsualización 
-![imagen]()
+![imagen](https://github.com/jean-carlos-19/checkout-page-master/blob/master/capturas/escritorio.png)
 
 ### Demo
 _Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-checkout-page-master.onrender.com/)_
