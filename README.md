@@ -29,15 +29,11 @@ _Para el correcto funcionamiento del proyecto de desafios se necesita tener inst
 ```bash
 yarn add global node-sass
 yarn add global --exact prettier
-yarn add global webpack
-yarn add global webpack-cli
 
 o
 
 yarn add node-sass
 yarn add --exact prettier
-yarn add webpack
-yarn add webpack-cli
 ```
 
 ### Instalación 🔧
@@ -72,10 +68,10 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Las herramientas utilizadas en este desafio fueron las siguientes:_
 
+* [html](https://developer.mozilla.org/es/docs/Web/HTML/Reference) - Usado para crear el esqueleto de una pagina web.
 * [Sass](https://sass-lang.com/guide) - Es un preprocesador de css utilizando el patron 7 - 1.
 * [Prettier](https://prettier.io/docs/en/index.html) - Usado para dar formato al codigo dependiendo de la tecnologia usada.
-* [html](https://developer.mozilla.org/es/docs/Web/HTML/Reference) - Usado para crear el esqueleto de una pagina web.
-
+* [webpack](https://webpack.js.org/concepts/) - Usado para empaquetar todos tus modulos de tu proyecto.
 
 ## Autores ✒️
 
