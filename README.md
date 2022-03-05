@@ -1,9 +1,11 @@
 # Pagina de Pago.
 
-_Reto: Crear una página de pago siguiendo el diseño propuesto por [DevChallenges](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY). No es necesario utilizar JS en este desafío, sino utilizar tipos de entrada y validación correctos. Cumpla con las historias de usuario que aparecen a continuación:_
+_Reto: Crear una página de pago siguiendo el diseño propuesto por [DevChallenges](https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1). No es necesario utilizar JS en este desafío, sino utilizar tipos de entrada y validación correctos. Cumpla con las historias de usuario que aparecen a continuación:_
 
 ### Historias de Usuario
-- _Puedo ver una página que sigue el diseño dado creada en [figma](https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D)._
+- _Puedo ver una página que sigue el diseño dado creada en [figma](https://www.figma.com/proto/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=1%3A9&scaling=min-zoom&page-id=0%3A1)._
+
+- _Puedo ver una página en el móvil siguiendo el diseño dado creada en [figma](https://www.figma.com/proto/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=1%3A131&scaling=min-zoom&page-id=0%3A1)._
 
 - _Puedo introducir el correo electrónico, el teléfono, el nombre completo, la dirección, la ciudad, el país y el código postal._
 
@@ -68,22 +70,20 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Las herramientas utilizadas en este desafio fueron las siguientes:_
 
-* [html](https://developer.mozilla.org/es/docs/Web/HTML/Reference) - Usado para crear el esqueleto de una pagina web.
+* [Html](https://developer.mozilla.org/es/docs/Web/HTML/Reference) - Usado para crear el esqueleto de una pagina web.
 * [Sass](https://sass-lang.com/guide) - Es un preprocesador de css utilizando el patron 7 - 1.
 * [Prettier](https://prettier.io/docs/en/index.html) - Usado para dar formato al codigo dependiendo de la tecnologia usada.
-* [webpack](https://webpack.js.org/concepts/) - Usado para empaquetar todos tus modulos de tu proyecto.
+* [Webpack](https://webpack.js.org/concepts/) - Usado para empaquetar todos tus modulos de tu proyecto.
 
 ## Autores ✒️
 
-* **Jean Piguave** - *Trabajo Inicial* - [piguavejc](https://github.com/villanuevand)
-* **DevChallenges** - *Diseño de la IU en Figma* - [DevChallenges](https://github.com/jean-carlos-19)
+* **Jean Piguave** - *Trabajo Inicial* - [piguavejc](https://devchallenges.io/portfolio/jean-carlos-19)
+* **DevChallenges** - *Diseño de la IU en Figma* - [DevChallenges](https://devchallenges.io/)
 
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia (MIT).
 
 
-
-
 ---
-⌨️ con ❤️ por [Jean Carlos](https://github.com/jean-carlos-19) 😊
+⌨️ con ❤️ por [Jean Carlos](https://devchallenges.io/portfolio/jean-carlos-19) 😊
