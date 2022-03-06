@@ -2,7 +2,7 @@
 
 _Reto: Crear una página de pago siguiendo el diseño propuesto por [DevChallenges](https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1). No es necesario utilizar JS en este desafío, sino utilizar tipos de entrada y validación correctos. Cumpla con las historias de usuario que aparecen a continuación:_
 
-### Historias de Usuario
+### Historias de Usuario :man:
 - _Puedo ver una página que sigue el diseño dado creada en [figma](https://www.figma.com/proto/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=1%3A9&scaling=min-zoom&page-id=0%3A1)._
 
 - _Puedo ver una página en el móvil siguiendo el diseño dado creada en [figma](https://www.figma.com/proto/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=1%3A131&scaling=min-zoom&page-id=0%3A1)._
@@ -18,10 +18,10 @@ _Reto: Crear una página de pago siguiendo el diseño propuesto por [DevChalleng
 - _Cuando hago clic en el botón de envío o pulso enter, puedo ver una alerta si la validación tiene éxito._
 
 
-### Previsualización 
+### Previsualización :eye:
 ![imagen](https://github.com/jean-carlos-19/checkout-page-master/blob/master/capturas/escritorio.png)
 
-### Demo
+### Demo :eyes:
 _Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-checkout-page-master.onrender.com/)_
 
 ### Pre-requisitos 📋
